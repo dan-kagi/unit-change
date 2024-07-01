@@ -1,0 +1,79 @@
+body{
+    background-color: greenyellow;
+    width: 100%;
+    margin:0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+}
+
+.card{
+    width: 40%;
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+.diagrams{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.time, .distance{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 330px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .card{
+        width:90%;
+    }
+    .distance, .time{
+        width: 90%;
+    }
+}
+
+header{
+    margin-top:0px;
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0px;
+}
+header img {
+    width: 70px;
+}
+footer{
+    text-align: center;
+}
